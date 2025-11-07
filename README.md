@@ -55,6 +55,6 @@ Evaluation & Deliverables:
 
 Files Included: 
 
-CS4372_Hwk3_Shyam_and_Rudy.ipnyb  -  Complete Code
+CS4372_Hwk3_Shyam_and_Rudy.ipynb  -  Complete Code
 
 Outputs.pdf -  Outputs
