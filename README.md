@@ -24,12 +24,9 @@ How to Run (Colab)
     1    Upload dataset to Drive and set GDRIVE_SOURCE_FOLDER.
     
     2    Run cells: mount Drive 
-    
-            •    fetch/prepare (Sections 3–5) 
-            
-            •    pipelines (6) 
-            
-            •    model (7).
+            -    fetch/prepare (Sections 3–5) 
+            -   pipelines (6) 
+            -    model (7).
     
     3    Train: Feature extraction (9) 
     
