@@ -5,11 +5,11 @@ Classify 10 monkey species using MobileNetV2 (ImageNet) with a custom head and l
 
 Dataset: [https://www.kaggle.com/code/paultimothymooney/identify-monkey-species-from-image/notebook](https://www.kaggle.com/code/paultimothymooney/identify-monkey-species-from-image/notebook)
 
-    •    Source: 10-monkey-species (images only).
+    •    Source: 10-monkey-species
     
     •    Prep: Merge provided training+validation, then split 70/15/15 into train/val/test.
     
-    •    Classes: n0…n9 (optionally map to names if a labels file exists).
+    •    Classes: n0…n9
 
   
 Environment
