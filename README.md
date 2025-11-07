@@ -51,4 +51,10 @@ Evaluation & Deliverables
     •    Training history plots (FE & FT)
     
     •    Tuning table with train/val/test accuracy and test Macro-F1
-    
+
+
+Files Included: 
+
+CS4372_Hwk3_Shyam_and_Rudy.ipnyb  -  Complete Code
+
+Outputs.pdf -  Outputs
