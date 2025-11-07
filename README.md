@@ -1,7 +1,7 @@
 # CS4372_Hwk3_Shyam_and_Rudy
 Overview
 Classify 10 monkey species using MobileNetV2 (ImageNet) with a custom head and light fine-tuning. Trains on a Drive-hosted dataset; produces history plots, a 25-image prediction grid, a tuning table, and test metrics (incl. Macro-F1).
-Dataset([URL]([url](https://www.kaggle.com/code/paultimothymooney/identify-monkey-species-from-image/notebook)))
+Dataset([https://www.kaggle.com/code/paultimothymooney/identify-monkey-species-from-image/notebook]([URL](https://www.kaggle.com/code/paultimothymooney/identify-monkey-species-from-image/notebook)))
     •    Source: 10-monkey-species (images only).
     •    Prep: Merge provided training+validation, then split 70/15/15 into train/val/test.
     •    Classes: n0…n9 (optionally map to names if a labels file exists).
