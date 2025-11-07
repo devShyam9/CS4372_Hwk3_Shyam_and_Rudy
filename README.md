@@ -1,5 +1,5 @@
 # CS4372_Hwk3_Shyam_and_Rudy
-Overview
+Overview:
 
 Classify 10 monkey species using MobileNetV2 (ImageNet) with a custom head and light fine-tuning. Trains on a Drive-hosted dataset; produces history plots, a 25-image prediction grid, a tuning table, and test metrics (incl. Macro-F1).
 
@@ -12,22 +12,22 @@ Dataset: [https://www.kaggle.com/code/paultimothymooney/identify-monkey-species-
     •    Classes: n0…n9
 
   
-Environment
+Environment:
 
     •    Python 3.12, TensorFlow 2.20, Keras 3 (Colab default)
     
     •    Key libs: tensorflow, scikit-learn, matplotlib, pandas, numpy
 
     
-How to Run (Colab)
+How to Run (Colab):
 
-    1    Upload dataset to Drive and set GDRIVE_SOURCE_FOLDER.
+    1    Upload dataset to Drive and set GDRIVE_SOURCE_FOLDER
     
     2    Run cells: 1-13 
     
     3    Evaluate & export: plots, test metrics + Macro-F1 + 25-grid, tuning table, artifacts
     
-Model & Training
+Model & Training:
 
     •    Backbone: MobileNetV2(include_top=False, weights="imagenet", name="backbone")
     
@@ -42,7 +42,7 @@ Dropout(0.2), Dense(num_classes, softmax)
     •    Callbacks: Checkpoint, EarlyStopping, ReduceLROnPlateau, CSVLogger
 
     
-Evaluation & Deliverables
+Evaluation & Deliverables:
 
     •    Held-out test: loss, accuracy, Macro-F1 (scikit-learn) + optional confusion matrix
     
